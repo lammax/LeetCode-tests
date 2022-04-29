@@ -16,6 +16,12 @@ class Leetcode_easyTests: XCTestCase {
         XCTAssertTrue(EasyTasks.twoSum([3,3], 6) == [0,1])
     }
 
+    func testIsPalindrome() throws {
+        XCTAssertTrue(EasyTasks.isPalindrome(121))
+        XCTAssertFalse(EasyTasks.isPalindrome(-121))
+        XCTAssertFalse(EasyTasks.isPalindrome(10))
+    }
+
     /*func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

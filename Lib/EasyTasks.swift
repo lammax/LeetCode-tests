@@ -25,5 +25,19 @@ class EasyTasks {
         return res
     }
     
+    class func isPalindrome(_ x: Int) -> Bool {
+        guard x > 0 else { return false}
+        
+        var reversedNum: Int = 0
+        var tmp: Int = x
+        
+        while tmp > 0 {
+            reversedNum = reversedNum*10 + tmp%10
+            tmp = tmp/10
+        }
+
+        return x == reversedNum
+    }
+    
     
 }

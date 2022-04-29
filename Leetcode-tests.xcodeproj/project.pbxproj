@@ -11,9 +11,12 @@
 		138D84EE281BE6AF00B56B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D84ED281BE6AF00B56B4F /* ContentView.swift */; };
 		138D84F0281BE6B000B56B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138D84EF281BE6B000B56B4F /* Assets.xcassets */; };
 		138D84F3281BE6B000B56B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138D84F2281BE6B000B56B4F /* Preview Assets.xcassets */; };
-		138D84FD281BE6B000B56B4F /* Leetcode_testsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D84FC281BE6B000B56B4F /* Leetcode_testsTests.swift */; };
+		138D84FD281BE6B000B56B4F /* Leetcode_easyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D84FC281BE6B000B56B4F /* Leetcode_easyTests.swift */; };
 		138D8507281BE6B000B56B4F /* Leetcode_testsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D8506281BE6B000B56B4F /* Leetcode_testsUITests.swift */; };
 		138D8509281BE6B000B56B4F /* Leetcode_testsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D8508281BE6B000B56B4F /* Leetcode_testsUITestsLaunchTests.swift */; };
+		138D8517281BE7CD00B56B4F /* EasyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D8516281BE7CD00B56B4F /* EasyTasks.swift */; };
+		138D8518281BE7CD00B56B4F /* EasyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D8516281BE7CD00B56B4F /* EasyTasks.swift */; };
+		138D8519281BE7CD00B56B4F /* EasyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D8516281BE7CD00B56B4F /* EasyTasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +43,11 @@
 		138D84EF281BE6B000B56B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		138D84F2281BE6B000B56B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		138D84F8281BE6B000B56B4F /* Leetcode-testsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leetcode-testsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		138D84FC281BE6B000B56B4F /* Leetcode_testsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_testsTests.swift; sourceTree = "<group>"; };
+		138D84FC281BE6B000B56B4F /* Leetcode_easyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_easyTests.swift; sourceTree = "<group>"; };
 		138D8502281BE6B000B56B4F /* Leetcode-testsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leetcode-testsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138D8506281BE6B000B56B4F /* Leetcode_testsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_testsUITests.swift; sourceTree = "<group>"; };
 		138D8508281BE6B000B56B4F /* Leetcode_testsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_testsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		138D8516281BE7CD00B56B4F /* EasyTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		138D84DF281BE6AF00B56B4F = {
 			isa = PBXGroup;
 			children = (
+				138D8515281BE7B300B56B4F /* Lib */,
 				138D84EA281BE6AF00B56B4F /* Leetcode-tests */,
 				138D84FB281BE6B000B56B4F /* Leetcode-testsTests */,
 				138D8505281BE6B000B56B4F /* Leetcode-testsUITests */,
@@ -113,7 +118,7 @@
 		138D84FB281BE6B000B56B4F /* Leetcode-testsTests */ = {
 			isa = PBXGroup;
 			children = (
-				138D84FC281BE6B000B56B4F /* Leetcode_testsTests.swift */,
+				138D84FC281BE6B000B56B4F /* Leetcode_easyTests.swift */,
 			);
 			path = "Leetcode-testsTests";
 			sourceTree = "<group>";
@@ -125,6 +130,14 @@
 				138D8508281BE6B000B56B4F /* Leetcode_testsUITestsLaunchTests.swift */,
 			);
 			path = "Leetcode-testsUITests";
+			sourceTree = "<group>";
+		};
+		138D8515281BE7B300B56B4F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				138D8516281BE7CD00B56B4F /* EasyTasks.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			files = (
 				138D84EE281BE6AF00B56B4F /* ContentView.swift in Sources */,
 				138D84EC281BE6AF00B56B4F /* Leetcode_testsApp.swift in Sources */,
+				138D8517281BE7CD00B56B4F /* EasyTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138D84FD281BE6B000B56B4F /* Leetcode_testsTests.swift in Sources */,
+				138D8518281BE7CD00B56B4F /* EasyTasks.swift in Sources */,
+				138D84FD281BE6B000B56B4F /* Leetcode_easyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +291,7 @@
 			files = (
 				138D8507281BE6B000B56B4F /* Leetcode_testsUITests.swift in Sources */,
 				138D8509281BE6B000B56B4F /* Leetcode_testsUITestsLaunchTests.swift in Sources */,
+				138D8519281BE7CD00B56B4F /* EasyTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
